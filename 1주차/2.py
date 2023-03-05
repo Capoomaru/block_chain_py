@@ -80,7 +80,7 @@ if __name__ == '__main__':
     autokey = Autokey(key=auto_key_input)
 
     autokey_encrypted = autokey.encrypt(plain_text=plain_input)
-    print('Vigenere 암호문 : ' + autokey_encrypted)
+    print('autokey 암호문 : ' + autokey_encrypted)
 
     autokey_decrypted = autokey.decrypt(encrypted_text=autokey_encrypted)
-    print('Vigenere 해독문 : ' + autokey_decrypted)
+    print('autokey 해독문 : ' + autokey_decrypted)
